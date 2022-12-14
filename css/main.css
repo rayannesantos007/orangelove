@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+* {
+  box-sizing: border-box;
+  font-family: "inter";
+}
+
+.main-container{
+  display: flex;
+}
+
+.logo img{
+  height: 478px;
+}
+
+.body-colors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #FAFAFA;
+}
+
+.main-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 350px;
+  border: solid 0.5px #00000018;
+}
+
+.main-title{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title p{
+  width: 60%;
+  color: #00000043;
+  font-weight: bold;
+}
+
+.main-title-orange{
+  color: #FCAC36;
+}
+
+.main-card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.main-card-content input{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 0.5px #00000018;
+  background-color: #FAFAFA;  
+  width: 100%;
+}
+
+.main-card-button{
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #0094f6c5;
+  border-radius: 5px;
+  color: #ffffff;
+  /* cursor: pointer; */
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10pt;
+}
+
+.main-card-button1{
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #0094f6c5;
+  border-radius: 5px;
+  color: #ffffff;
+  /* cursor: pointer; */
+  margin-top: 10px;
+  text-align: center;
+  font-size: 10pt;
+}
+
+.main-card-password{
+  text-decoration: none;
+  font-size: 10pt;
+  color: #000000;
+  margin-top: 15px;
+}
+
+.main-card-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: solid 0.5px #00000018;
+  padding: 40px;
+  width: 100%;
+  margin-top: 10px;
+  height: 10px;
+  font-size: 10pt;
+}
+
+.main-card-footer-password{
+  text-decoration: none;
+  color: #0095F6;
+}

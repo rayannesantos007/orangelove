@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+* {
+  box-sizing: border-box;
+  font-family: "inter";
+	text-decoration: none;
+}
+
+.match-profiles a{
+	color: #000000;
+}
+
+.match-profiles{
+	padding: 10px;
+}
+
+.head-content{
+	font-size: 10pt;
+	padding-left: 25px;
+}
+
+.match-card{
+	display: flex;
+	padding: 20px;
+	padding-top: 10px;
+}
+
+.profile{
+	display: flex;
+}
+
+.profile-img{
+	width: 40px;
+	height: 6vh;
+	border-radius: 50%;
+	border: solid 2px #FCAC36;
+}
+
+.match-card:nth-child(3) .profile-img{
+	background: url('../imgs/profiles/WhatsApp\ Image\ 2022-09-25\ at\ 12.51.41.jpeg');
+	background-size: cover;
+}
+
+.match-card:nth-child(4) .profile-img{
+	background: url('../imgs/profiles/Elizama.jpeg');
+	background-size: cover;
+}
+
+.match-card:nth-child(5) .profile-img{
+	background: url('../imgs/profiles/Rayane.jpeg');
+	background-size: cover;
+}
+
+.match-card:nth-child(6) .profile-img{
+	background: url('../imgs/profiles/Vinicius.jpeg');
+	background-size: cover;
+}
+
+
+.profile-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 15px;
+}
+
+.profile-info p{
+	margin: 0;
+}
+
+.profile-info p:nth-child(1){
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.profile-info p:nth-child(2){
+	font-size: 10pt;
+	color: #00000070;
+}

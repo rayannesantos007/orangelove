@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+* {
+  box-sizing: border-box;
+  font-family: "inter";
+}
+
+body{
+	overflow: hidden;
+}
+
+.header-menu{
+	padding: 10px;
+	border-bottom: solid 0.5px #00000018;
+}
+
+.header-menu-profile{
+	
+}
+
+.header-menu-profile img{
+	width: 25px;
+	cursor: pointer;
+}
+
+#logout{
+	margin-left: 220px;
+}
+
+.content{
+	display: flex;
+}
+
+.content-dates{
+	margin-left: 10px;
+	width: 280px;
+	height: 100vh;
+	border-right: solid 0.5px #00000018;
+	
+}
+
+.content-align{
+	display: grid;
+	grid-template-columns: 49% 49%;
+}
+
+#dateButton{
+	cursor: pointer;
+	border: none;
+	width: 92%;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.content-dates p{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.content-dates-cards{
+	margin-top: 15px;
+	width: 120px;
+	height: 140px;
+	border-radius: 10px;
+	border: solid 0.5px #00000018;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.content-align button:nth-child(1){
+	background: url('../imgs/pexels-wendy-wei-1190298.jpg');
+	background-size: cover;
+}
+
+.content-align button:nth-child(2){
+	background: url('../imgs/pexels-edward-eyer-1066861.jpg');
+	background-size: cover;
+}
+
+.content-align button:nth-child(3){
+	background: url('../imgs/pexels-tima-miroshnichenko-7991579.jpg');
+	background-size: cover;
+}
+
+.content-align button:nth-child(4){
+	background: url('../imgs/pexels-gabi-santana-13631693.jpg');
+	background-size: cover;
+}
+
+.content-align button:nth-child(5){
+	background: url('../imgs/pexels-jeshootscom-442576.jpg');
+	background-size: cover;
+}
+
+.content-align button:nth-child(6){
+	background: url('../imgs/Sem\ título.jpg');
+	background-size: cover;
+}
+
+.content-dates-cards p{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.profile-img{
+	background-image: url("../imgs/profiles/Rayane.jpeg");
+	border-radius: 50%;
+}
+
+.profile-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 15px;
+}
+
+.profile-info p{
+	margin: 0;
+}
+
+.profile-info p:nth-child(1){
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.profile-info p:nth-child(2){
+	font-size: 10pt;
+	color: #00000070;
+}

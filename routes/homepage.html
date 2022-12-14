@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/homepage.css">
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Orange's Love</title>
+</head>
+<body>
+	<header class="header-menu">
+		<a data-toggle="modal" data-target="#myModal" class="header-menu-profile"><img src="../assets/account_circle_FILL0_wght400_GRAD0_opsz48.svg" alt=""></a>
+		<a id="logout" class="header-menu-profile" href="../index.php"><img src="../assets/logout_FILL0_wght400_GRAD0_opsz48.svg" alt=""></a>
+</header>
+	<section class="content">
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog modal-vertical-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Meu perfil</h4>
+						</div>
+							<div class="modal-body">
+								<label for="InputStatus">Status</label>
+								<input type="text" class="form-control" id="InputStatus" aria-describedby="statusHelp" placeholder="No que você está pensando, Caroline?">
+								<br>
+								<br>
+								<label for="InputUser">Nome de usuário</label>
+								<input type="text" class="form-control" id="InputUser" aria-describedby="nameHelp" placeholder="@vem_carol">
+								<label for="InputUserName">Nome completo</label>
+								<input type="text" class="form-control" id="InputUserName" aria-describedby="nameCompleteHelp" placeholder="Ana Caroline dos Santos Reis">
+								<label for="InputEmail">Email</label>
+								<input type="email" class="form-control" id="InputEmail" aria-describedby="emailteHelp" placeholder="caroline858@gmail.com">
+								<small id="emailHelp" class="form-text text-muted">Não compartilhe seu email com terceiros</small>
+								<br>
+								<br>
+								<label for="InputPass">Senha</label>
+								<input type="password" class="form-control" id="InputPass" aria-describedby="nameCompleteHelp" placeholder="*********">
+							</div>
+						<div class="modal-footer">
+						<button type="button" class="btn btn-success" data-dismiss="modal">Salvar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-dates">	
+			<p>Dates</p>
+			<div class="content-align">
+				<button id="dateButton" onclick="dateClick()">
+					<div class="content-dates-cards">
+						<p>Balada</p>
+					</div>
+				</button>
+				<button id="dateButton" onclick="dateClick()">
+					<div class="content-dates-cards">
+						<p>Jantar</p>
+					</div>
+				</button>
+				<button id="dateButton" onclick="dateClick()">
+					<div class="content-dates-cards">
+						<p>Cinema</p>
+					</div>
+				</button>
+				<button id="dateButton" onclick="dateClick()">
+					<div class="content-dates-cards">
+						<p>Passeio</p>
+					</div>
+				</button>
+				<button id="dateButton" onclick="dateClick()">
+					<div class="content-dates-cards">
+						<p>Jogos</p>
+					</div>
+				</button>
+				<button id="dateButton" onclick="dateClick()">
+					<div class="content-dates-cards">
+						<p>Outros</p>
+					</div>
+				</button>
+			</div>
+		</div>
+		<div class="content-match">
+			<iframe src="./iframes/match.html" id="matchDates" height="600" width="1000" frameBorder="0"></iframe>
+		</div>
+	</section>
+	<script src="../js/main.js"></script>
+</body>
+</html>
